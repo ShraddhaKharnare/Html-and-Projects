@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/bagground.avif);   
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+#anchor{
+    display: flex;
+    justify-content: center;
+}
+a #fb{
+    background-color: blue;
+    color: white;
+}
+a #gg{
+    
+    background-color: #cf5252;
+    color: white;
+};
+    

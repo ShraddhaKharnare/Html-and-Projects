@@ -1,0 +1,311 @@
+
+#CardSection{
+    background-color: #212121;
+    color: white;
+}
+
+#CardSection #news{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#CardSection #news h1{
+    font-size: 25px;
+}
+#CardSection #cards{
+     display: flex;
+} 
+
+#CardSection  #cards div{
+    overflow: hidden;
+    width: 25%;
+ height: 300px;
+}
+
+#CardSection div #cards img{
+    width: 100%;
+}
+
+#CardSection #cards img:hover{
+
+    transform: scale(1.2);
+    transition: 1s;
+}
+#CardSection #cards div p{
+  
+    position: relative;
+    padding-left: 5px;
+    font-weight: 600;
+    color:white;
+    bottom: 70px;
+}
+
+#HeaderSection1{
+    background-color: #212121;
+    color: white;
+    /* font-weight: 700; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#HeaderSection1 ul{
+   display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+}
+/* #HeaderSection1 ul #head{
+    font-weight:700;
+} */
+
+.head:hover{
+    font-weight: 700;
+    color: red;  
+}
+
+#ImageSection img{
+    width: 100%;
+}
+
+#HeaderSection2{
+    background-color: #212121;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#HeaderSection2 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.head2:hover{
+    font-weight: 700;
+    color: red;  
+}
+
+#ImageSection2 img{
+    width: 100%;
+
+}
+
+#HeaderSection3{
+    background-color: #212121;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#HeaderSection3 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.head3:hover{
+    font-weight: 700;
+    color: red;  
+}
+
+#ImageSection3 img{
+    width: 100%;
+
+}
+
+#HeaderSection4{
+    background-color: #212121;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#HeaderSection4 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.head4:hover{
+    font-weight: 700;
+    color: red;  
+}
+
+#ImageSection4 img{
+    width: 100%;
+
+}
+#HeaderSection5{
+    background-color: #212121;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#HeaderSection5 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.head5:hover{
+    font-weight: 700;
+    color: red;  
+}
+
+#ImageSection5 img{
+    width: 100%;
+
+}
+
+/* #CardSection1{
+    background-color: #212121;
+    color: white;
+}
+
+#CardSection1 #popular{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#CardSection1 #popular h1{
+    font-size: 25px;
+}
+#CardSection1 #card1{
+     display: flex;
+} 
+
+#CardSection1  #card1 div{
+    overflow: hidden;
+    width: 25%;
+   height: 300px;
+}
+
+#CardSection1 div #card1 img{
+    width: 100%;
+}
+
+#CardSection1 #card1 img:hover{
+
+    transform: scale(1.2);
+    transition: 1s;   
+}
+/* #CardSection1 #card1 div h2{
+ 
+} */
+
+/* #CardSection1 #card1 div p{
+  
+    position: relative;
+    padding-left: 5px;
+    font-weight: 600;
+    color:white;
+    padding-bottom: 20px;
+    bottom: 70px;
+} */
+
+
+#CardSection2 #card2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 250px;
+    background-color: #212121;
+    color: white;
+    height: 150px;
+}
+
+.fa.fa-hand-pointer-o{
+    color: white;
+    
+}
+.fa.fa-map-o{
+    color: white;
+    
+}
+
+.fa.fa{
+    color: white;
+    
+}
+
+
+#Footer1{
+    
+    background-color:#e5e3e3;
+    border: 2px solid rgb(208, 196, 196);
+    width: 100%;
+    padding-bottom: 5px;
+}
+#Footer1 .social{
+    display: flex;
+    text-align: left;
+    padding-left: 1172px;
+    list-style: none;
+    gap: 20px;
+    background-color: #e5e3e3;
+   
+}
+
+#Footer1 #social ul{
+    display:flex ;
+    justify-content: right;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+#Footer1 #social p{
+    margin-top: 8px;
+    color: #212121;
+    font-size: 15px;
+ 
+}
+
+.fa.fa-facebook-official:hover{
+    color:#32628a;
+}
+.fa.fa-twitter:hover{
+    color:#0dcaf08a;
+}
+.fa.fa-youtube-play:hover{
+    color:#dc3545;
+}
+
+.fa.fa-instagram:hover{
+    color:#d63384;
+}
+
+.fa.fa-linkedin-square:hover{
+    color:#0d6efd;
+}
+
+
+#FooterSection{
+    
+    background-color: #e5e3e3;
+    padding-left: 40px;
+}
+
+#FooterSection h3{
+
+    color: #000;
+    font-size: 20px;
+    font-weight: 2000px;
+    padding-right: 24px;
+}
+
+#FooterSection table {
+    margin-right: 10px;
+    list-style: none;
+    font-weight: 600; 
+   
+
+}
+#FooterSection table th{
+    font-size: 20px;
+}
+#FooterSection table td{
+    font-size: 14px;
+}
