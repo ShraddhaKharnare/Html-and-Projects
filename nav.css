@@ -1,0 +1,72 @@
+/* body{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 22, 218);
+    color:white;
+   
+}
+#left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} */
+
+
+
+body{
+    margin: 0px;
+    padding-left: 0px;  
+}
+
+#ipl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+#lhs{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+#center{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+#rhs{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+
+}
+#purple{
+    color: purple;
+}
+#orange{
+    color: orange;
+}

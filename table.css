@@ -1,0 +1,27 @@
+ /* table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black ;
+}
+
+td{
+    border: 2px solid black ;
+} */
+
+table,th,td{
+
+    border: 2px solid black;
+    border-collapse: collapse;
+   
+}
+
+ul{
+    list-style-type: square;
+}
+body{
+    background-image: url(./Images/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

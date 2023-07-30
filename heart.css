@@ -1,0 +1,36 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fa.fa-heart{
+    font-size: 200px;
+    color: red ;
+    animation: dil 0.5s infinite ease-in-out;
+
+}
+h1{
+    position:absolute;
+    top: 156px;
+    left: 689px;
+}
+
+
+@keyframes dil{
+    0%{
+        
+        opacity: 1; 
+        font-size: 50px;
+    }
+    50%{
+        opacity:0;
+        font-size: 150px;
+    }
+   
+    100%{
+        opacity:1;
+        font-size: 50px;
+    }
+}

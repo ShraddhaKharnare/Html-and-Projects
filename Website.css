@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/webbag\(1\).jpg);
+    background-size: cover;
+    
+}
+img{
+    font-size: 20px;
+}
+
+#nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 10px;
+    background-color: rgb(80, 27, 178);
+    color: azure;
+}
+#nav #center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+#nav #right{
+    margin-top: 12px;
+    margin-bottom: 2px;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#quotes div{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+
+    border-radius: 10px;
+    background-color: rgb(143, 21, 168);
+    color:white;
+    width: 80px;
+    height: 50px;
+}
+
+#Meme{
+    display: flex;
+    justify-content: center;
+}
+
+#Meme div{
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    width: 100%
+    
+}
+#quotes #qg{
+    display: none;
+    text-align: center;
+}
+h1{
+    font-size: 20px
+}
+#mg{
+    display: none;
+}
+
+#meme{
+    animation:colors 1s infinite ;
+}
+
+@keyframes colors{
+    0% {
+        color: hotpink;
+    }
+    20% {
+        color: rgb(18, 204, 37);
+    }
+    40% {
+        color: white;
+    }
+    60% {
+        color: rgb(39, 44, 185);
+    }
+    80% {
+        color:yellow;
+    }
+    100% {
+        color: red;
+    }
+}

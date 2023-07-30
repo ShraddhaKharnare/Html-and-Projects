@@ -1,0 +1,23 @@
+/* li{
+    font-size: 40px;
+} */
+#abc{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+mark{
+    color: violet;
+    
+}
+#para{
+    color: blue;
+    text-align: center;
+
+}
